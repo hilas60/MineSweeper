@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>MineSweeper</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body onload="init()">
+        <h1>MineSweeper!!</h1>
+        <div>
+            <div class="game-level">
+                <button onclick="resetGame(4)">Easy(4x4) with 2 Mines</button>
+                <button onclick="resetGame(8)">Normal(8x8) with 12 Mines</button>
+                <button onclick="resetGame(12)">Hard(12x12) with 30 Mines</button>
+            </div>
+        </div>
+        <div class="game-container">
+            <div class="game-status">
+                <table>
+                    <tr>
+                        <td class="mine-counter"></td>
+                        <td class="smiley"><button onclick="init()">😃</button></td>
+                        <td class="timer"></td>
+                    </tr>
+                </table>
+            </div>
+            <table>
+                <tbody class="board">
+                </tbody>
+            </table>
+            <div class="safe-click">
+                <button onclick="showSafeClick()">Safe-Click</button>
+                <p><span class="safe-count">3</span> clicks available</p>
+            </div>
+        </div>
+
+
+        <script src="js/util.js"></script>
+        <script src="js/game.js"></script>
+    </body>
+
+</html>

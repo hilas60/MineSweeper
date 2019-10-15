@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+}
+
+
+h1 {
+    color: blue;
+    
+}
+.game-container{
+    text-align: -webkit-center; 
+}
+
+.game-status td {
+    height: 30px;
+    width: 50px;
+    margin: 10px;
+}
+
+
+.timer {
+    background-color: black;    
+    color: red;
+    height: 30px;
+    position: relative;
+    font-size: 25px;
+    text-align: right;
+}
+
+.smiley button{
+    width: 60px;
+    font-size: 25px;
+}
+
+.mine-counter {
+    background-color: black;    
+    color: red;
+    height: 30px;
+    font-size: 25px;
+    text-align: right;
+}
+
+button {
+    width: 80px;
+    height: 50px;   
+    border-radius: 10px;
+    border: outset;
+}
+
+table {
+    border-width: 5px;
+    border: gainsboro outset 5px;
+}
+
+table tbody {
+    border-width: 5px;
+    border: grey outset 10px;
+}
+
+table td{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: lightgray;
+    border: inset 3px;
+    text-align: center;
+}
+
+.covered {
+    background-color: gainsboro;
+    border: outset 3px;
+}
+
+.revealed {
+    background-color: lightgray;
+    border: inset 3px;
+}
+
+.safe-click button {
+    background-color: lightblue;
+    height: 50px;
+    border-radius: 10px;
+    border: outset;
+}
+
+.safe-cell {
+    background-color: lightcoral;
+}
